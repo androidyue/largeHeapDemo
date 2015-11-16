@@ -7,8 +7,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
-        android:largeHeap="true"
+
         >
+        <!--put the attribute into application element to enable largeheap-->
+        <!--android:largeHeap="true"-->
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
